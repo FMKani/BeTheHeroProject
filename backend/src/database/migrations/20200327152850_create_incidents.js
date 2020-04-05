@@ -17,5 +17,5 @@ exports.up = function(knex) {
 
 //Excluir tablela
 exports.down = function(knex) {
-    return knex.schema.dropTable('icidents');
+    return knex.schema.dropTable('incidents');
 };
