@@ -1,4 +1,4 @@
-[![BCH compliance](https://bettercodehub.com/edge/badge/FMKani/BeTheHeroProject?branch=master)](https://bettercodehub.com/)
+[![Build status](https://ci.appveyor.com/api/projects/status/vec0mlfowkxtqq3l?svg=true)](https://ci.appveyor.com/project/FMKani/betheheroproject)
 [![DeepScan grade](https://deepscan.io/api/teams/8432/projects/10621/branches/149277/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=8432&pid=10621&bid=149277)
 # Be The Hero
 
