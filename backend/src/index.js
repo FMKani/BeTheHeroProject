@@ -39,6 +39,7 @@
 
 const express = require('express');
 const cors = require('cors');
+const { errors } = require('celebrate');
 const routes = require('./routes');
 
 
@@ -47,5 +48,6 @@ const aplication = express();
 aplication.use(cors());
 aplication.use(express.json());
 aplication.use(routes);
+aplication.use(errors());
 
 aplication.listen(3333);
