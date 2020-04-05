@@ -43,11 +43,11 @@ const { errors } = require('celebrate');
 const routes = require('./routes');
 
 
-const aplication = express();
+const app = express();
 
-aplication.use(cors());
-aplication.use(express.json());
-aplication.use(routes);
-aplication.use(errors());
+app.use(cors());
+app.use(express.json());
+app.use(routes);
+app.use(errors());
 
-aplication.listen(3333);
+module.exports = app;
